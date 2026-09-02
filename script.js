@@ -1,2 +1,2 @@
-x = "a "
+let x = "a "
 alert(x.repeat(3));
