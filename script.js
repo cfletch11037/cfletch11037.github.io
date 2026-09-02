@@ -1,2 +1,2 @@
-let x = "a "
-alert(x.repeat(3));
+let myString = "a "
+alert(myString.repeat(3));
