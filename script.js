@@ -1,1 +1,2 @@
-alert(2 * 3);
+x = "a "
+alert(x * 3);
