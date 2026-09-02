@@ -1,2 +1,2 @@
 x = "a "
-alert(x * 3);
+alert(x.repeat(3));
