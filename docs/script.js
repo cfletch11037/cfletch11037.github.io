@@ -1,9 +1,14 @@
 let count = 0
 
-const button = document.getElementById("countButton");
+const upButton = document.getElementById("upButton");
+const downButton = document.getElementById("downButton");
 const display = document.getElementById("numClicks");
 
-button.addEventListener("click", () => {
+upbutton.addEventListener("click", () => {
     count++;
+    display.textContent = count;
+});
+downbutton.addEventListener("click", () => {
+    count--;
     display.textContent = count;
 });
