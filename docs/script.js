@@ -13,6 +13,6 @@ downButton.addEventListener("click", () => {
     updateDisplay();
 });
 
-funtion updateDisplay() {
+function updateDisplay() {
     display.textContent = count;
 };
