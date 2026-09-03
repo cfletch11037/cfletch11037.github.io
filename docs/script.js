@@ -4,11 +4,11 @@ const upButton = document.getElementById("upButton");
 const downButton = document.getElementById("downButton");
 const display = document.getElementById("numClicks");
 
-upbutton.addEventListener("click", () => {
+upButton.addEventListener("click", () => {
     count++;
     updateDisplay();
 });
-downbutton.addEventListener("click", () => {
+downButton.addEventListener("click", () => {
     count--;
     updateDisplay();
 });
