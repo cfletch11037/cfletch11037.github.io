@@ -6,11 +6,13 @@ const display = document.getElementById("numClicks");
 
 upButton.addEventListener("click", () => {
     count++;
-    this.updateDisplay();
+    updateDisplay();
 });
 downButton.addEventListener("click", () => {
     count--;
-    this.updateDisplay();
+    updateDisplay();
 });
 
-display.textContent = count;
+funtion updateDisplay() {
+    display.textContent = count;
+}
