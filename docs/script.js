@@ -1,4 +1,4 @@
-let count = 0
+let count = 0;
 
 const upButton = document.getElementById("upButton");
 const downButton = document.getElementById("downButton");
