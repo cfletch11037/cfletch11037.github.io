@@ -15,4 +15,4 @@ downButton.addEventListener("click", () => {
 
 funtion updateDisplay() {
     display.textContent = count;
-}
+};
