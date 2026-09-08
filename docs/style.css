@@ -1,6 +1,32 @@
 body {
-    background-color: #ffc4e7;
+    background-color: #f5a9b8;
 }
 h1 {
     color: #16400a;
+}
+
+.upButton {
+    background-color: #5bcefa;
+    color: #000000;
+    padding: 12px 12px;
+    border: none;
+    cursor: crosshair;
+    font-size: 12px;
+}
+
+.upButton:hover {
+    background-color: #039c08;
+}
+
+.downButton {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px 12px;
+    border: none;
+    cursor: crosshair;
+    font-size: 12px;
+}
+
+.downButton:hover {
+    background-color: #ba0000;
 }
