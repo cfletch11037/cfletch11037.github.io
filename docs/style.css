@@ -5,7 +5,7 @@ h1 {
     color: #16400a;
 }
 
-.upButton {
+#upButton {
     background-color: #5bcefa;
     color: #000000;
     padding: 12px 12px;
@@ -14,11 +14,11 @@ h1 {
     font-size: 12px;
 }
 
-.upButton:hover {
+#upButton:hover {
     background-color: #039c08;
 }
 
-.downButton {
+#downButton {
     background-color: #ffffff;
     color: #000000;
     padding: 12px 12px;
@@ -27,6 +27,6 @@ h1 {
     font-size: 12px;
 }
 
-.downButton:hover {
+#downButton:hover {
     background-color: #ba0000;
 }
