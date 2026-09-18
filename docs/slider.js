@@ -1,7 +1,7 @@
-const slider = document.getElementById("love");
-const display = document.getElementById("ratingDisplay");
+const slider1 = document.getElementById("love");
+const display1 = document.getElementById("ratingDisplay");
 
 slider.addEventListener("input", () => {
-    display.textContent = slider.value;
+    display1.textContent = slider1.value;
     console.log(slider.value)
 });

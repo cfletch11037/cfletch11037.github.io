@@ -1,9 +1,13 @@
+/* this changes the color of the bg and the header */
+
 body {
     background-color: #f5a9b8;
 }
 h1 {
     color: #16400a;
 }
+
+/* these change the color, shape, and other properties of the buttons */
 
 #upButton {
     background-color: #5bcefa;
