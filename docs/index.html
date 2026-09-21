@@ -12,9 +12,11 @@
     <div>
     <img src="testimage.jpg" alt="a photo of a small dog; a black lab, pitbull mix.">
     </div>
+    <p>Image credit: u/Mich3llem0 on Reddit</p>
     <div>
     <img src="orangecatinacardboardbox.png" alt="an orange cat peeking out of a cardboard box" width="100" height="900">
     </div>
+    <p>Image credit: I can't find the photographer but the photo is from the website <a href="https://applaws.com/uk/ginger-cat-antics-why-orange-cats-have-big-personalities/">applaws.com</a></p>
     <button type="button" id="upButton">+1</button>
     <button type="button" id="downButton">-1</button>
     <div class="counter">Clicks: <span id=numClicks>0</span></div>
@@ -24,6 +26,15 @@
     <input type="range" id="love" name="rating" min="0" max="100" value="50">
     <p>Rating: <span id=ratingDisplay>50</span></p>
     <script src="rating.js"></script>
+    </div>
+    <div>
+    <p>Change the size of the following image:</p>
+    <div>
+    <img src="frog.jpeg" alt="a red-eyed tree frog standing on a thin tree branch" height="400">
+    </div>
+    <p>Image credit: Charlie Jackson on Wikipedia</p>
+    <input type="range" id="widthSlider" min="1" max="1000" value="500">
+    <script src="pic-size.js" id="resizableImg"></script>
     </div>
 </body>
 </html>
