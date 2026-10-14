@@ -44,13 +44,13 @@ h1 {
 }
 
 .slider::-webkit-slider-runnable-track {
-    background: #f5a9b8;
+    background: #ffffff;
     height: 8px
     border-radius: 4px;
 }
 
 .slider::-moz-range-track {
-    background: #f5a9b8;
+    background: #ffffff;
     height: 8px;
     border-radius: 4px;
 }
