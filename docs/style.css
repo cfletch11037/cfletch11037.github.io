@@ -42,3 +42,33 @@ h1 {
     background: transparent;
     cursor: pointer;
 }
+
+.slider::-webkit-slider-runnable-track {
+    background: #16400a;
+    height: 8px
+    border-radius: 4px;
+}
+
+.slider::-moz-range-track {
+    background: #16400a;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #5bcefa;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.slider::-moz-range-thumb {
+    background: #5bcefa;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: -6px;
+}
