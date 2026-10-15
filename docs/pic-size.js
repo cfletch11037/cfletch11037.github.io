@@ -4,6 +4,6 @@ const picture = document.getElementById("resizableImg");
 
 
 widthSlider.addEventListener("input", () => {
-    percent = String(widthSlider.value) + "%"
-    picture.width = percent
+    picWidth = widthSlider.value
+    picture.width = picWidth
 })
