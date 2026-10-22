@@ -12,6 +12,6 @@ usrInput.addEventListener("change", () => {
 
 imgButton.addEventListener("click", () => {
     if (file) {
-        imgOut.src = file;
+        imgOut.src = URL.createObjectURL(file);
     }
 })
