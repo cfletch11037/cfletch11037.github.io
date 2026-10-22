@@ -1,9 +1,8 @@
-const usrInput = getElementById('usrImageIn');
-const imgOut = getElementById('usrImageOut');
+const usrInput = document.getElementById('usrImageIn');
+const imgOut = document.getElementById('usrImageOut');
 
 usrInput.addEventListener("change", () => {
     fileList = Event.target.files;
-    
     if (fileList.length > 0) {
         const file = fileList[0];
 
