@@ -7,6 +7,7 @@ usrInput.addEventListener("change", () => {
     if (fileList.length > 0) {
         console.log(fileList)
         const file = fileList[0];
+        return file
     }
 })
 
