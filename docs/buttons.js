@@ -9,8 +9,10 @@ upButton.addEventListener("click", () => {
     updateDisplay();
 });
 downButton.addEventListener("click", () => {
-    count--;
-    updateDisplay();
+    if (count > 0) {
+        count--;
+        updateDisplay();
+    }
 });
 
 function updateDisplay() {
