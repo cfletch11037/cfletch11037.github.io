@@ -12,7 +12,7 @@ upButton.addEventListener("click", () => {
     updateDisplay();
 });
 downButton.addEventListener("click", () => {
-    if (count > 0) {
+    if (netCount > 0) {
         netCount--;
         updateDisplay();
     }
