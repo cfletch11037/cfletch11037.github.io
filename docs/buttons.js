@@ -14,11 +14,12 @@ upButton.addEventListener("click", () => {
 downButton.addEventListener("click", () => {
     if (netCount > 0) {
         netCount--;
-        updateDisplay();
     }
     totCount++;
+    updateDisplay();
 });
 
 function updateDisplay() {
-    netDisplay.textContent = count;
+    netDisplay.textContent = netCount;
+    totDisplay.textContent = totCount;
 };
