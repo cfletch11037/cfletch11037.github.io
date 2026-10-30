@@ -1,20 +1,24 @@
-let count = 0;
+let totCount = 0;
+let netCount = 0;
 
 const upButton = document.getElementById("upButton");
 const downButton = document.getElementById("downButton");
-const display = document.getElementById("numClicks");
+const netDisplay = document.getElementById("netClicks");
+const totDisplay = document.getElementById("numClicks")
 
 upButton.addEventListener("click", () => {
-    count++;
+    totCount++;
+    netCount++;
     updateDisplay();
 });
 downButton.addEventListener("click", () => {
     if (count > 0) {
-        count--;
+        netCount--;
         updateDisplay();
     }
+    totCount++;
 });
 
 function updateDisplay() {
-    display.textContent = count;
+    netDisplay.textContent = count;
 };
